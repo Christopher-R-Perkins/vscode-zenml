@@ -56,7 +56,7 @@ const setValues = (name, config) => {
     }
 
     if (typeof config[key] === 'boolean' && config[key]) {
-      inputs[config].checked = 'on';
+      inputs[key].checked = 'on';
     }
 
     if (typeof config[key] === 'object') {
