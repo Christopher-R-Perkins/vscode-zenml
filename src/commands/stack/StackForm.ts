@@ -258,7 +258,7 @@ export default class StackForm extends WebviewBase {
           {{#each this}}
             <div class="single-option">
               <input type="radio" id="{{id}}" name="{{@../key}}" value={{id}}>
-              <label for="{{id}}"><img src="{{url}}"><p>{{capitalize name}}</p></label>
+              <label for="{{id}}"><img src="{{url}}"><p>{{name}}</p></label>
             </div>
           {{/each}}
         </div>
